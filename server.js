@@ -1,5 +1,7 @@
 const express = require('express');
 const path = require('path');
+const bodyParser = require('body-parser');
+const { supabase } = require('./supabaseClient');
 
 const app = express();
 const port = 3000;
